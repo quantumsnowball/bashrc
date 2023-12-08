@@ -1,1 +1,3 @@
-echo "I am from bashrc!!"
+echo "I am from index.sh"
+
+source ./aliases/index.sh
