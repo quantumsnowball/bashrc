@@ -1,5 +1,7 @@
+base=$HOME/.config/bashrc
+
 # alias
-source ./aliases/index.sh
+source "$base/aliases/index.sh"
 
 # plugins
-source ./plugins/index.sh
+source "$base/plugins/index.sh"
