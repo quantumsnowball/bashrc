@@ -1,3 +1,2 @@
-echo "I am from index.sh"
-
+# alias
 source ./aliases/index.sh
