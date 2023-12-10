@@ -16,24 +16,12 @@ alias la='eza -aF --icons'
 alias lt='eza -aF -s time --reverse --icons'
 alias ll='eza -aF -l -h --icons --grid'
 alias lT='eza -aF -l -h --icons --tree --level=2'
-# files
-#alias mv='mv -i'
-#alias rm='rm -i'
-# directory
-alias ..='cd ..'
-alias ...='cd ../..'
-alias ....='cd ../../..'
-alias .....='cd ../../../..'
-alias ......='cd ../../../../..'
-alias .......='cd ../../../../../..'
-alias ........='cd ../../../../../../..'
-alias .........='cd ../../../../../../../..'
-alias ..........='cd ../../../../../../../../..'
 alias zz='z -'
 # process
 alias jobs='jobs -l'
 
 
+source $alias_root/dir.sh
 source $alias_root/nvim.sh
 source $alias_root/youtube-dl.sh
 source $alias_root/lazygit.sh
