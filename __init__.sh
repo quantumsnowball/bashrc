@@ -1,13 +1,4 @@
-base=$HOME/.config/bashrc
-
-# alias
-source "$base/aliases/index.sh"
-
-# utils
-source "$base/utils/index.sh"
-
-# plugins
-source "$base/plugins/index.sh"
-
-# init
-source "$base/init/index.sh"
+source $HOME/.config/bashrc/aliases/index.sh
+source $HOME/.config/bashrc/utils/index.sh
+source $HOME/.config/bashrc/plugins/index.sh
+source $HOME/.config/bashrc/init/index.sh
