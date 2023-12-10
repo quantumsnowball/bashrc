@@ -1,5 +1,5 @@
 #!/bin/sh
 
-ln -sf "$HOME/.config/bashrc/index.sh" "$HOME/.bashrc"
+ln -sf "$HOME/.config/bashrc/__init__.sh" "$HOME/.bashrc"
 ls -l "$HOME/.bashrc"
 
