@@ -35,7 +35,6 @@ alias jobs='jobs -l'
 # neovim
 alias vi='nvim'
 alias v='nvim'
-# youtube-dl
-alias ytdl='youtube-dl'
 
+source $alias_root/youtube-dl.sh
 source $alias_root/lazygit.sh
