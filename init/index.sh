@@ -1,5 +1,7 @@
 init_root=$HOME/.config/bashrc/init
 
+source $init_root/env.sh
+
 # zoxide
 eval "$(zoxide init bash)"
 
