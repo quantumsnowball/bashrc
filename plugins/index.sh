@@ -1,4 +1,4 @@
-base=$HOME/.config/bashrc/plugins
+plugins_root=$HOME/.config/bashrc/plugins
 
 # oh-my-bash
-source "$base/oh-my-bash.sh"
+source "$plugins_root/oh-my-bash.sh"
