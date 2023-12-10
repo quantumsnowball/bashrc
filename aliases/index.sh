@@ -1,3 +1,5 @@
+alias_root=$HOME/.config/bashrc/aliases
+
 # sudo
 alias sudo='sudo '
 # clear
@@ -35,6 +37,5 @@ alias vi='nvim'
 alias v='nvim'
 # youtube-dl
 alias ytdl='youtube-dl'
-# lazygit
-alias lg='lazygit'
 
+source $alias_root/lazygit.sh
