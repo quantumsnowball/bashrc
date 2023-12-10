@@ -1,6 +1,4 @@
-init_root=$HOME/.config/bashrc/init
-
-source $init_root/env.sh
-source $init_root/fzf.sh
-source $init_root/zoxide.sh
+source $HOME/.config/bashrc/init/env.sh
+source $HOME/.config/bashrc/init/fzf.sh
+source $HOME/.config/bashrc/init/zoxide.sh
 
